@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.5.0" method="upgrade" client="site">
+    <name>Contus HD Video Share</name>
+    <version>3.4.1</version>
+    <copyright>Copyright (C) 2011 Powered by Apptha</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <creationDate>May 2013</creationDate>
+    <author>Apptha</author>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <description>Contus HD Video Share</description>
+    <!-- Database setup -->
+    <scriptfile>script.php</scriptfile>
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <!-- The following tag(s) are evaluated by the above subinstall script -->
+        <!-- Frontend files -->
+    <files folder="site">
+        <filename>contushdvideoshare.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>string.php</filename>
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>hdflvplayer</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>language</folder>
+        <folder>videos</folder>
+    </files>
+	<languages folder="site">
+            <language tag="en-GB">language/en-GB.com_contushdvideoshare.ini</language>
+    </languages> 
+    <!-- Backend files -->
+    <administration>
+        <menu img="components/com_contushdvideoshare/assets/hdvideoshare.png">COM_HDVIDEOSHARE</menu>
+        <submenu>
+            <menu img="components/com_contushdvideoshare/assets/membervideos.png" link="option=com_contushdvideoshare&amp;layout=adminvideos">COM_HDVIDEOSHARE_MEMBER_VIDEOS</menu>
+            <menu img="components/com_contushdvideoshare/assets/memberdetails.png" link="option=com_contushdvideoshare&amp;layout=memberdetails">COM_HDVIDEOSHARE_MEMBER_DETAILS</menu>
+            <menu img="components/com_contushdvideoshare/assets/adminvideos.png" link="option=com_contushdvideoshare&amp;layout=adminvideos&amp;user=admin">COM_HDVIDEOSHARE_ADMIN_VIDEOS</menu>
+            <menu img="components/com_contushdvideoshare/assets/iconcategory.png" link="option=com_contushdvideoshare&amp;layout=category">COM_HDVIDEOSHARE_CATEGORY</menu>
+            <menu img="components/com_contushdvideoshare/assets/playersettings.png" link="option=com_contushdvideoshare&amp;layout=settings">COM_HDVIDEOSHARE_PLAYER_SETTINGS</menu>
+            <menu img="components/com_contushdvideoshare/assets/sitesettings.png" link="option=com_contushdvideoshare&amp;layout=sitesettings">COM_HDVIDEOSHARE_SITE_SETTINGS</menu>
+            <menu img="components/com_contushdvideoshare/assets/googleadsense.png" link="option=com_contushdvideoshare&amp;layout=googlead">COM_HDVIDEOSHARE_GOOGLE_ADSENSE</menu>
+            <menu img="components/com_contushdvideoshare/assets/ads.png" link="option=com_contushdvideoshare&amp;layout=ads">COM_HDVIDEOSHARE_ADS</menu>
+        </submenu>
+        <files folder="admin">
+            <filename>contushdvideoshare.php</filename>
+            <filename>index.html</filename>
+            <folder>controllers</folder>
+            <folder>css</folder>
+            <folder>assets</folder>
+            <folder>models</folder>
+            <folder>elements</folder>
+            <folder>sql</folder>
+            <folder>views</folder>
+            <folder>tables</folder>
+            <folder>images</folder>
+            <folder>js</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+        </files>
+        <languages folder="admin">            
+            <language tag="en-GB">language/en-GB.com_contushdvideoshare.sys.ini</language>
+        </languages> 
+    </administration>
+  <modules>
+    <module module="mod_HDVideoShareCategories" client="site" />
+    <module module="mod_HDVideoShareFeatured" client="site" />
+    <module module="mod_HDVideoSharePopular" client="site" />
+    <module module="mod_HDVideoShareRecent" client="site" />
+    <module module="mod_HDVideoShareRelated" client="site" />
+    <module module="mod_HDVideoShareSearch" client="site" />
+  </modules>
+  <plugins>
+    <plugin plugin="hvsarticle" group="content" />
+  </plugins>
+</extension>

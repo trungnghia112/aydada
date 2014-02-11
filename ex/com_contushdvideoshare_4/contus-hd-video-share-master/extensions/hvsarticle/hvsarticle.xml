@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://dev.joomla.org/xml/3.0/plugin-install.dtd">
+<install version="3.0" type="plugin" group="content" method="upgrade">
+    <name>HVS Article Plugin</name>
+    <creationDate>July 15, 2013</creationDate>
+    <author>Apptha</author>
+    <authorEmail>assist@apptha.com</authorEmail>
+    <authorUrl>http://www.apptha.com</authorUrl>
+    <copyright>Copyright (C) 2013 Powered by Apptha</copyright>
+     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0</version>
+    <description>PLG_CONTENT_HVSARTICLE_XML_DESCRIPTION</description>
+       
+  <scriptfile>install.hvsarticle.php</scriptfile>
+    <files>
+        <filename plugin="hvsarticle">hvsarticle.php</filename>
+        <filename plugin="hvsarticle">playlist.php</filename>
+        <filename>readme.txt</filename>
+            </files>
+<languages>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_content_hvsarticle.ini</language>
+	</languages>
+<params>
+
+   <param name="width"
+   type="text" default=""
+   label="Player Width"
+   description="Give the width of the player"
+   />
+    <param name="height"
+    type="text"
+    default=""
+    label="Player Height"
+    description="Give the height of the player"
+    />
+    <param
+    name="autoplay"
+    type="list"
+    default=""
+    description="Enable or disable the autoplay"
+    label="Autoplay" >
+    <option value="select">-Select-</option>
+    <option value="false">Disable</option>
+    <option value="true">Enable</option>
+
+</param>
+<param
+    name="playautoplay"
+    type="list"
+    default=""
+    description="Enable or disable the autoplay"
+    label="Playlist Autoplay" >
+    <option value="select">-Select-</option>
+    <option value="false">Disable</option>
+    <option value="true">Enable</option>
+
+</param>
+</params>
+    <config>
+<fields name="params">
+      <fieldset name="Player" label="Player Settings">
+   <field name="width"  
+   type="text" default="" 
+   label="Player Width" 
+   description="Give the width of the player" 
+   />
+    <field name="height"  
+    type="text" 
+    default="" 
+    label="Player Height" 
+    description="Give the height of the player" 
+    />
+    <field 
+    name="autoplay" 
+    type="list" 
+    default="" 
+    description="Enable or disable the autoplay" 
+    label="Autoplay" >
+    <option value="select">-Select-</option>
+    <option value="false">Disable</option>
+    <option value="true">Enable</option>
+    
+</field>
+<field 
+    name="playautoplay" 
+    type="list" 
+    default="" 
+    description="Enable or disable the autoplay" 
+    label="Playlist Autoplay" >
+    <option value="select">-Select-</option>
+    <option value="false">Disable</option>
+    <option value="true">Enable</option>
+    
+</field>
+     </fieldset>
+        
+   
+     
+</fields>
+</config>
+</install>
+

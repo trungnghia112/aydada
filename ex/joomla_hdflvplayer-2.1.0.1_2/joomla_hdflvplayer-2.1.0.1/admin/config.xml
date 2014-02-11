@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <params addpath="/administrator/components/com_hdflvplayer/elements">
+        <param name="playlistnameid" id="playlistnameid" type="playlistname" default="" title="Playlist Name" label="Playlist Name" description="PARAMMODULEHDFLVPLAYER" />
+    </params>
+</config>

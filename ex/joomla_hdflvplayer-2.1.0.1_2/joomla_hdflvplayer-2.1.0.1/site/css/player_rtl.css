@@ -1,0 +1,18 @@
+
+/**
+ * @name 	        hdflvplayer
+ ** @version	        2.1.0.1
+ * @package	        Apptha
+ * @since	        Joomla 1.5
+ * @subpackage	        hdflvplayer
+ * @author      	Apptha - http://www.apptha.com/
+ * @copyright 		Copyright (C) 2011 Powered by Apptha
+ * @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @abstract      	com_hdflvplayer installation file.
+ ** @Creation Date	23 Feb 2011
+ ** @modified Date	28 Aug 2013
+ */
+.relatedvideos .hd_related_vid li{float: right;margin-right: 10px !important;float: right !important;margin-right: 10px !important;margin-left: 0 !important;}
+#pagination{float: left !important;}
+.relatedvideos {float: right !important;}
+

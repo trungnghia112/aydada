@@ -1,0 +1,81 @@
+/*
+ ***********************************************************/
+/**
+ * @name          : Joomla HD Video Share
+ *** @version	  : 3.4.1
+ * @package       : apptha
+ * @since         : Joomla 1.5
+ * @author        : Apptha - http://www.apptha.com
+ * @copyright     : Copyright (C) 2011 Powered by Apptha
+ * @license       : http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @abstract      : Contus HD Video Share Module stylesheet for rtl
+ * @Creation Date : March 2010
+ * @Modified Date : September 2013
+ * */
+
+/*
+ ***********************************************************/
+
+/*RTL CSS*/
+
+.floatleft{float:right;}
+.floatright{float:left;}
+.button{overflow: visible;}
+.clearfix{clear:both;}
+.clearfix:after {clear: both;display: block;content: " ";visibility: hidden;}
+#module_videos #catagory-view a{display:inline;}
+#module_videos .video-info{text-align:right;display:block;}
+#module_videos #nopos1#module_videos #nopos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 0;margin: 3px 0;}
+#module_videos #onepos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 -12px;margin: 3px 0;}
+#module_videos #twopos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 -24px;margin: 3px 0;}
+#module_videos #threepos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 -36px;margin: 3px 0;}
+#module_videos #fourpos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 -48px;margin: 3px 0;}
+#module_videos #fivepos1 {background: url(../images/stars831.png) no-repeat;width:60px;height:12px;position:relative;list-style:none;padding:0px;background-position:0 -60px;margin: 3px 0;}
+
+
+#module_videos {padding-top: 10px;overflow: hidden;}
+#module_videos .video-grid-container ul .video-item{background: none;list-style-type: none;float: left;width:auto;line-height:normal;padding:10px 10px 10px 0px;}
+#module_videos .video-grid-container ul .video-item:last-child{padding-right: 0px;}
+#module_videos .video-grid-container .ulvideo_thumb{margin: 0px; padding: 0px;}
+#module_videos .video-grid-container ul li .show-title-container{clear: both;overflow: hidden;margin-top:0px;font-size: 12px;height: 34px;}
+#module_videos .video-grid-container .home-link{border-bottom: 1px solid #ccc;}
+#module_videos .video-grid-container .video-item-details{width:115px;}
+#module_videos .video-grid-container ul li .yt-uix-hovercard-target{margin-left:8px;width: 115px;height: 65px;}
+#module_videos .video-grid-container ul .video-item .mod_video_item{float: right;}
+
+.featured_vidimg{display: block;background: none !important;}
+.featured_vidimg .yt-uix-hovercard-target{outline: none;border: 1px solid #ccc;padding: 1px;}
+.featured_vidimg .yt-uix-hovercard-target:hover{outline: none;border: 1px solid #3784CC;padding: 1px;background: none;}
+
+ul.menu{padding:0px;}
+.module_menu{margin:0 auto;display:block;}
+.module_menu #hsearch{margin-top: 10px;overflow: hidden;}
+.morevideos {float:left;text-align:right;display:block;}
+.hd_norecords_found{padding:10px;font-weight:bold;text-align:center}
+.hdvideo_category ul .hd-item-sub{margin-right: 15px;}
+.item27 ul .hd-item-sub{margin-right: 15px;}
+
+.show-title-container {clear: both;overflow: hidden;margin-top:3px;}
+.show-title-container a{font-weight:bold;font-size:93%;display:block;text-align:right;text-decoration: none;}
+
+#searchtxtbox {float: right;width: 62%;}
+#search_btn{float: right;margin: 0 5px 0 0px;}
+
+
+/* Tooltip start*/
+.htmltooltip{position: absolute; /*leave this and next 3 values alone*/z-index:9999;left: -1000px;top: -1000px;background:#fff !important;padding: 8px 10px; /*width of tooltip*/
+border:1px solid #999 !important;line-height:1.3em;width:300px;-moz-border-radius:4px;-webkit-border-radius:4px;-moz-box-shadow:0 0 5px #888888;-webkit-box-shadow:0 0 5px #888888;}
+.htmltooltip .tooltip_views_right{float: right;}
+.htmltooltip .tooltip_discrip{color:#000;font-size:12px;text-align:left;border-bottom: 1px solid #ccc;padding-bottom: 5px;word-wrap: break-word;}
+.htmltooltip .tooltip_views_right .view_txt{color:#888;font-size: 12px;}
+.htmltooltip .tooltip_views_right .view_count{color:#333;font-size:12px;}
+.htmltooltip .tooltip_category_left{float:left}
+.htmltooltip .tooltip_category_left .title_category{color:#888;font-size: 12px;}
+.htmltooltip .tooltip_category_left .show_category{color:#333;font-size:12px;}
+.htmltooltip .chat-bubble-arrow-border {border-color:transparent transparent  #999 transparent;border-style: solid;border-width: 10px;height:0;width:0;position:absolute;top:-21px;left:30px;}
+.htmltooltip .chat-bubble-arrow {border-color:transparent transparent #fff transparent;border-style: solid;border-width: 10px;height:0;width:0;position:absolute;top:-18px;left:30px;}
+.htmltooltip .chat-bubble-arrow-border1 {border-color:#999 transparent transparent transparent;border-style: solid;border-width: 10px;height:0;width:0;position:absolute;bottom:-21px;left:30px;}
+.htmltooltip .chat-bubble-arrow1 {border-color:#fff transparent transparent transparent;border-style: solid;border-width: 10px;height:0;width:0;position:absolute;bottom:-18px;left:30px;}
+
+/* Tooltip End*/
+

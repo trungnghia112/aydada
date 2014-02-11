@@ -1,0 +1,80 @@
+/**
+ * @name 	        hdflvplayer
+ ** @version	        2.1.0.1
+ * @package	        Apptha
+ * @since	        Joomla 1.5
+ * @subpackage	        hdflvplayer
+ * @author      	Apptha - http://www.apptha.com/
+ * @copyright 		Copyright (C) 2011 Powered by Apptha
+ * @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @abstract      	com_hdflvplayer installation file.
+ * @Creation Date	23-2-2011
+ * @modified Date	15-11-2012
+ */
+
+
+#content-pane-mod #selectyourhost { border:#CCCCCC solid 1px; width:<?php echo $width; ?>px !important;background:#fff;}
+                               #content-pane-mod #selectyourhost .yourhost { background:#eeeeee; border:#ffffff solid 1px;padding-top:0px;margin: 10px 0 0 0;}
+                               #selectyourhost .yourhost h2 { color:#000000; font-size:15px;margin:0px;padding:5px 0 5px 7px;width:auto; }
+
+                               .floatleft{float:left;}
+                               .floatright{float:right}
+                               .clear { clear:both; height:0px; font-size:0px;}
+                               .clearfix:after {
+                                   clear: both;
+                                   display: block;
+                                   content: " ";
+                                   height: auto !important;
+                                   visibility: hidden;
+                               }
+
+                               /* pane-sliders  */
+                               .pane-sliders .title {
+
+                                   cursor: pointer;
+                               }
+                               .jpane-toggler  span     {background: transparent url(../components/com_hdflvplayer/images/default.jpg) 0px 80% no-repeat; padding-left: 20px; }
+                               .jpane-toggler-down span {background: transparent url(../components/com_hdflvplayer/images/default1.jpg) 0px 50% no-repeat; padding-left: 20px; }
+
+                               .jpane-toggler-down { }
+
+
+                               /** cpanel settings **/
+
+                               #cpanel div.icon {
+                                   text-align: center;
+
+                                   float: left;
+
+                               }
+
+                               #cpanel div.icon a {
+                                   display: block;
+                                   float: left;
+
+                               }
+
+                               #cpanel div.icon a:hover {
+
+                               }
+
+                               #cpanel img  { padding: 10px 0; margin: 0 auto; }
+                               #cpanel span { display: block; text-align: center; }
+                               #selectyourhost h3{color:#000000; font-size:12px;margin:0px;padding:5px 0 5px 7px;width:auto;  }
+
+                               .relatedvideos_mod
+                               {
+                                   border:#CCCCCC solid 1px;background:#fff;margin:15px 0px 0px 0px;
+                               }
+                               .relatedvideos_mod p strong
+                               {
+                                   background:#eeeeee;text-align:left;border:#ffffff solid 1px;padding-left:8px;display:block;
+
+                               }
+                               .relatedvideos_mod a.thumbimage{background: none !important;}
+                               .video-info  {
+                                   font-size: 10px;
+                                   font-weight: normal;
+                                   text-decoration: none;
+                                   display:block;
+                               }

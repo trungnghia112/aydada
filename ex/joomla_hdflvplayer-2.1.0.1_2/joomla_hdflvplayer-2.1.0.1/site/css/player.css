@@ -1,0 +1,140 @@
+
+/**
+ * @name 	        hdflvplayer
+ ** @version	        2.1.0.1
+ * @package	        Apptha
+ * @since	        Joomla 1.5
+ * @subpackage	        hdflvplayer
+ * @author      	Apptha - http://www.apptha.com/
+ * @copyright 		Copyright (C) 2011 Powered by Apptha
+ * @license 		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @abstract      	com_hdflvplayer installation file.
+ ** @Creation Date	23 Feb 2011
+ ** @modified Date	28 Aug 2013
+ */
+
+.relatedvideos
+{
+    float:left;margin:15px 0px 10px 0px;
+}
+.relatedvideos_mod, .relatedvideos_mod li
+{
+    float:none;overflow: hidden;
+}
+.relatedvideos_mod ul{ margin-left: 5%; padding: 0; }
+.relatedvideos tr,
+.relatedvideos td {border: none; padding: 0 10px 10px 0px;}
+.relatedvideos p strong
+{
+    text-align:left;display:block;
+}
+.relatedvideos a.thumbimage{background: none !important;}
+.relatedvideos a.thumbimage img{padding: 4px; border: 1px solid #dfdfdf; margin-bottom: 10px;}
+.selectyourhost p strong{line-height:10px !important;}
+.video-info{
+    text-decoration: none;
+    background:none;
+    display:block;
+}
+.clear{clear:both;}
+#titletxt h3{margin: 0 0 10px 0 !important;margin:6px 0;}
+
+.selectyourhost { border:#CCCCCC solid 1px; background:none;}
+.selectyourhost .yourhost { background:#eeeeee;  width: 100% !important; height: 30px;}
+.selectyourhost .yourhost h2 { color:#000000; font-size:15px;margin:0px;padding:2px 0 0px 7px;width:auto; }
+
+.floatleft{float:left;}
+.floatright{float:right}
+.clear { clear:both; height:0px; font-size:0px;}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: " ";
+    height: auto !important;
+    visibility: hidden;
+}
+
+/* pane-sliders  */
+
+.pane-sliders .title {
+
+    cursor: pointer;
+}
+.jpane-toggler  span     {background: transparent url(../images/default.jpg) 0px 80% no-repeat; padding-left: 20px; padding-bottom: 2px; }
+.jpane-toggler-down span {background: transparent url(../images/default1.jpg) 0px 50% no-repeat; padding-left: 20px; }
+
+.jpane-toggler-down { }
+
+
+/** cpanel settings **/
+
+#cpanel div.icon {
+    text-align: center;
+
+    float: left;
+
+}
+
+#cpanel div.icon a {
+    display: block;
+    float: left;
+
+}
+
+#cpanel div.icon a:hover {
+
+}
+
+#cpanel img  { padding: 10px 0; margin: 0 auto; }
+#cpanel span { display: block; text-align: center; }
+.selectyourhost h3{color:#000000; font-size:12px;margin:0px;width:auto; }
+
+.page_align{width:auto;float:right}
+.page_rightspace{padding:10px 5px 0 0;}
+.page_rightspace a{padding: 1px 5px;margin: 0px 1px;}
+.cursor_pointer{cursor:pointer;}
+#pagination {float: right;}
+#pagination a{padding: 1px 5px;text-decoration: none;}
+
+#pagination tr, #pagination td {border:none; border-width: 0px !important;}
+#pagination tr td a{color:#000;}
+#pagination tr td .active{color:#fff;}
+#pagination{margin: 10px 0px; border-width: 0px !important;}
+#pagination table{border-width: 0px !important; table-layout: fixed;display: block;}
+#pagination table td{background: #FFF;}
+
+#content-pane, #content-pane-mod{margin-top: 10px;}
+#content-pane-mod, .relatedvideos_mod{ width: 100% !important; }
+
+
+.relatedvideos{    margin: 10px 0 0 0;border: 1px solid #DFDFDF; word-wrap: break-word; word-break: break-word;}
+.relatedvideos h3{    background: #eee;margin: 0 0 10px 0 !important; color: #333; padding: 8px;font-weight: normal; }
+
+.hd_related_vid{ padding: 0 10px 0; display: block; border-width: 0px !important;}
+.hd_related_vid ul{clear: both; padding: 0 !important; margin: 0 !important;}
+.hd_related_vid li{list-style: none; margin-left: 10px !important; overflow: hidden; float: left; width: 130px; margin-bottom: 10px !important;}
+.hd_related_vid li:first-child{margin-left: 0px !important;}
+.hd_related_vid li .hd_video_content{ width: 100% !important; }
+.hd_video_content{width: 150px;}
+
+
+#descriptiontxt, 
+#descriptiontxtm{word-wrap: break-word; word-break: break-all; background: #FFF; color: #000;}
+
+@media screen and (max-width : 340px) {
+    #content-pane, .content-pane-mod{width: 100% !important;}
+    .hd_related_vid li{ float:none !important; }
+    .relatedvideos{ width: 100% !important;  }
+}
+@media screen and (max-width : 775px) {
+    #content-pane{width: 100% !important;}
+    .relatedvideos{width: 100% !important;}
+    .hd_related_vid li:first-child {margin-left: 10px !important;}
+    .hd_related_vid ul{clear: none;}
+    .HDFLVPlayer1, 
+    .HDFLVPlayer1 embed{width: 100% !important;}
+}
+
+
+
+
