@@ -1,0 +1,32 @@
+/********************************************************************
+  _                                      _     _       _ _ ____  
+ | |_ _ __ _   _ _ __   __ _ _ __   __ _| |__ (_) __ _/ / |___ \ 
+ | __| '__| | | | '_ \ / _` | '_ \ / _` | '_ \| |/ _` | | | __) |
+ | |_| |  | |_| | | | | (_| | | | | (_| | | | | | (_| | | |/ __/ 
+  \__|_|   \__,_|_| |_|\__, |_| |_|\__, |_| |_|_|\__,_|_|_|_____|
+                       |___/       |___/    
+/********************************************************************/
+body {
+	color: #545454;
+	font-weight: normal;
+	height: 100%;
+}
+/*-Layout------------------------------------------*/
+.tn-header-full, .tn-main-full, .tn-footer-full {
+	width: 100%;
+	margin: auto;
+}
+.tn-header, .tn-main, .tn-footer {
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.search_box {background-image: url(../images/bg_search.png);background-repeat: no-repeat;display: inline-block;float: right;margin-top: 65px;}
+.search_box .sb {border: medium none;cursor: pointer;float: left;height: 30px;text-indent: -9999px;width: 30px;background-attachment: scroll;background-color: transparent;background-image: url(../images/search_icon.png);background-repeat: no-repeat;background-position: center center;}
+.search_box .sf {background: none repeat scroll 0 0 transparent;border:none 0;color: #777576;
+float: left;font-size: 13px;padding: 0 5px;width:117px;}
+.search_box .process {border: medium none;cursor: pointer;float: left;text-indent: -9999px;width: 23px;background-attachment: scroll;background-color: transparent;background-image: url(../images/ui-anim_basic_16x16.gif);background-repeat: no-repeat;background-position: center center;}
+.search_box,
+.search_box .sb,
+.search_box .sf ,
+.search_box .process {height:40px;line-height: 40px;}
